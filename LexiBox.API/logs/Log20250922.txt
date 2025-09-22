@@ -1,0 +1,26 @@
+2025-09-22 16:27:39.392 +03:00 [INF] Application starting up...
+2025-09-22 16:27:39.655 +03:00 [INF] Now listening on: https://localhost:7216
+2025-09-22 16:27:39.656 +03:00 [INF] Now listening on: http://localhost:5156
+2025-09-22 16:27:39.663 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-09-22 16:27:39.933 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 16:27:39.934 +03:00 [INF] Hosting environment: Development
+2025-09-22 16:27:39.934 +03:00 [INF] Content root path: C:\Users\mehmt\Desktop\LexiBox\LexiBox.API
+2025-09-22 16:27:40.509 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/index.html - null null
+2025-09-22 16:27:40.724 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/index.html - 200 null text/html;charset=utf-8 218.0512ms
+2025-09-22 16:27:40.814 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-22 16:27:40.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/_vs/browserLink - null null
+2025-09-22 16:27:40.821 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 6.7987ms
+2025-09-22 16:27:40.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.0205ms
+2025-09-22 16:27:41.068 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - null null
+2025-09-22 16:27:41.076 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.4737ms
+2025-09-22 16:27:54.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7216/api/v1/vocabularies - null null
+2025-09-22 16:27:54.329 +03:00 [INF] Executing endpoint 'HTTP: GET /api/v1/vocabularies => Handle'
+2025-09-22 16:27:54.338 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-22 16:27:55.145 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT v."Id", v."Category", v."CreatedAt", v."Meaning", v."State", v."UpdatedAt", v."Word"
+FROM "Vocabularies" AS v
+ORDER BY v."CreatedAt"
+2025-09-22 16:27:55.235 +03:00 [INF] Setting HTTP status code 200.
+2025-09-22 16:27:55.242 +03:00 [INF] Writing value of type 'Result`1' as Json.
+2025-09-22 16:27:55.247 +03:00 [INF] Executed endpoint 'HTTP: GET /api/v1/vocabularies => Handle'
+2025-09-22 16:27:55.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/v1/vocabularies - 200 null application/json; charset=utf-8 936.2023ms

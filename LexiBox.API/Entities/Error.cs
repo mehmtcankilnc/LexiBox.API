@@ -19,5 +19,5 @@ public static class VocabularyErrors
 public static class CommonErrors
 {
     public static readonly Error InvalidEnum = new(
-        false, "Enums.InvalidEnum", "InvalidEnum");
+        false, "Enums.InvalidEnum", "Invalid enum!");
 }
