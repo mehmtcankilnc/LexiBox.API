@@ -24,3 +24,14 @@ ORDER BY v."CreatedAt"
 2025-09-22 16:27:55.242 +03:00 [INF] Writing value of type 'Result`1' as Json.
 2025-09-22 16:27:55.247 +03:00 [INF] Executed endpoint 'HTTP: GET /api/v1/vocabularies => Handle'
 2025-09-22 16:27:55.254 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7216/api/v1/vocabularies - 200 null application/json; charset=utf-8 936.2023ms
+2025-09-22 16:37:37.012 +03:00 [INF] Application starting up...
+2025-09-22 16:37:37.101 +03:00 [INF] Now listening on: http://localhost:5156
+2025-09-22 16:37:37.103 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 16:37:37.104 +03:00 [INF] Hosting environment: Development
+2025-09-22 16:37:37.104 +03:00 [INF] Content root path: C:\Users\mehmt\Desktop\LexiBox\LexiBox.API
+2025-09-22 16:52:20.557 +03:00 [INF] Application starting up...
+2025-09-22 16:52:20.640 +03:00 [INF] Now listening on: http://localhost:5156
+2025-09-22 16:52:20.642 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-22 16:52:20.642 +03:00 [INF] Hosting environment: Development
+2025-09-22 16:52:20.642 +03:00 [INF] Content root path: C:\Users\mehmt\Desktop\LexiBox\LexiBox.API
+2025-09-22 16:52:42.246 +03:00 [INF] Application is shutting down...
